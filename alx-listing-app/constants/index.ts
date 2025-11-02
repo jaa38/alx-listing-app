@@ -1,11 +1,3 @@
-export interface CardProps {
-  title: string;
-  imageUrl: string;
-  description: string;
-}
-
-export interface ButtonProps {
-  label: string;
-  onClick?: () => void;
-  variant?: 'primary' | 'secondary';
-}
+// Reusable constants go here
+export const API_BASE_URL = 'https://api.alx-listing-app.com';
+export const APP_TITLE = 'ALX Listing App';
